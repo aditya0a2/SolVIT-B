@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "alert-brook-454605-e1",
+  "private_key_id": "c32736f4107411b01c63de9e17cf553123564ef0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCz1SXPQ6w0i/xU\nyzFP/4Mee6/QELBUw+pEJXmfMjPVIXlOnsxulHJZaxX9a37KBgmfcgV8J4uO2QYL\nOZrVynkZ1zKkfGrTMHjxGD5b2ZTKA9oaOqVmH5bswhhjX/G+j0vY28SkZG3t/5m0\nwKaQvEURJDY81dzQH2gWTO5tdkpUHp7QAu0OuQfe6BtEsThRYXko0JxwDancD44I\nIqPfl/KLcqJSUau/yTg0iZFibqOMemmcxJEOgrygpykIUS0Ii80G/zTVS4hOHtbD\nrNxbEhWlCBo/4QnbdxmiU2rIetlzqu8nTz75mgLU5bMcdJNO5ofOvH9A7JZYijoD\neMH3O4U5AgMBAAECggEACGf8yfkAWj5276HF7tbjUq/2cnPtQjEcSM41prbqjFpx\nuLacmMiwpbRnRT7aoOfyWDU0w253zBgh+7FYJwk9avNPxzeXqMKZzK9U7uc3WNAg\nSFyYcbMlU3DpQe/wtXcuVPdE9GhLaTYrAbOFtbtPQTNfo61dko79RxmWhaBjbhYi\nSABngr89clSvz5Rh6SDMlAw5w52UEh3ZPZOn2gJJ6lAzHk2YO3B/ColXDrmcrWtI\nh7OLCT+fJMrX3QKAzMhDw0sGSAQAS5qULgnni6STsl5lTq7yuZVg6hOKUMjWxtyE\nSM9l8mI8AGlk6zGZI+fiQv4XJbxx34y6XgxuTkOWgQKBgQDXzlt3GghtiLnwvfOw\nFz1MAXKoN+wZHlJcTDNRWNU5MxWqhRBZUmwzy47Yc8uB+Q/k71qTKgoR2M+/8eFj\nnvUk9p9pQH3+6PgQ2DPIzFve8/IHJjGuw6+SCUiVUwgzo1JP3RIpcvNPYCfArpBN\nLM+v+AvF5HIkU8f6M0G4ld7uGQKBgQDVU5Lcb2IpT0ZuBjOxdyA7SfqnOlEjzGlO\nsgqHU1CfeTHFVBxMyKN2uUDIjaV6py6wt5pQY1nXPoETR3VcFg9x/izF2o5AmgQ8\nvSEeH9ppFfDfqOStfCG8373hQYqVddI8/aLthEvVicRlSAkZF27H41za9/v2F8Li\nB+LGIuf0IQKBgQCbuVnBEPUB7UaXlMpSyAJAZU8SWgAxg/LUjVv+mEaMlvNMb+aD\nPfm8SmgSg0RXzpyMi7dlOFG53STUkjsdAuhMuvX/Ij2JAx12Mjzz6Ztlv8xnIkV5\nodWAYNiSgC8L7A+Kd7ESXdN69Jza6lxQhER961S7gQRoeFh2kCQdiXAriQKBgQCH\nL4YC0Ub4fLdaI+4ASUiQqeoArXEb6X7WkvcfGMoftVK4BPxGIGOOaglGzpSOLIHn\nFQLibINTZtWvHPqfV4+EIpnG7CB3ieKjhwsEpxTmwTO62LHJyr8qjPMsWzdyTY7k\nfasRL2RLNxnRQRwa3YGjhE6kqL/wDNDAIlUwUJCDYQKBgFgUIBrlAaOb0DgtlKZr\ndj7cA6lYj8up5iaQT+v0N7f506MKlSbxWT5KwzAT/x6gVZW1l4lkFSCYm2/Rvide\nVsZyDYjrt0kO8C05wf3jADseVDYIvN1PYBmy28atgmmXTHHh5ftdKein4QoH6P4m\n6kusKW9e90KImMxWK/F7MYRf\n-----END PRIVATE KEY-----\n",
+  "client_email": "flask-gsheets@alert-brook-454605-e1.iam.gserviceaccount.com",
+  "client_id": "105452179410332633862",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/flask-gsheets%40alert-brook-454605-e1.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

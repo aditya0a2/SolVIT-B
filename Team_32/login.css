@@ -1,0 +1,21 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d5e5d5;
+}
+.login-div {
+  max-width: 430px;
+  padding: 35px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #c7d9dd;
+}
+
+::placeholder {
+  color: #8ab2a6;
+}

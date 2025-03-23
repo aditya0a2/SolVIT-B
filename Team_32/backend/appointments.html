@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointments</title>
+    <style>
+        /* General Page Styling */
+        body {
+            background-color: #f5e6d0; /* Beige Background */
+            color: #5c3d2e; /* Brown Text */
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            position: relative;
+        }
+
+        /* Background Doodles */
+        body::before {
+            content: "";
+            background: url('your-doodle-image.png'); /* Replace with actual doodle image path */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.2; /* Adjust transparency */
+            z-index: -1;
+            background-size: cover; /* Ensures full coverage */
+            background-repeat: repeat;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 3px solid #5c3d2e;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* Centering Table */
+        .table-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 85%;
+            max-width: 900px;
+            border-collapse: collapse;
+            background: rgba(255, 247, 236, 0.9); /* Light Beige with Transparency */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #d4a276;
+            text-align: left;
+        }
+
+        th {
+            background-color: #8b5e3c; /* Dark Brown */
+            color: white;
+            font-size: 1.1rem;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9e8d2;
+        }
+
+        tr:hover {
+            background-color: #e4c7a0; /* Light Brown Hover */
+            transition: 0.3s;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            table {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Appointments List</h1>
+
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Service</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Location</th>
+            </tr>
+            {% for appointment in appointments %}
+            <tr>
+                <td>{{ appointment.name }}</td>
+                <td>{{ appointment.email }}</td>
+                <td>{{ appointment.service }}</td>
+                <td>{{ appointment.date }}</td>
+                <td>{{ appointment.time }}</td>
+                <td>{{ appointment.location }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+</body>
+</html>
